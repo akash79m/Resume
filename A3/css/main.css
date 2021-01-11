@@ -1,0 +1,119 @@
+/*
+ *using box-sizing to make the webpage responsive.
+ */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 2px;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    font-family: sans-serif;
+    color: black;
+    background: white;
+    overflow: scroll;   
+}
+
+/* Implementing dark mode in CSS
+ *
+ *Citation-Took help from CSS-TRICKS. URL-https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#toggling-themes
+ *Date-04-11-2020.
+ */
+body.dark-mode {
+    color: white;
+    background: #121212;
+}
+body.dark-mode a {
+    color: #809fff;
+}
+
+
+#img{
+    height: 20%;
+    width: 20%;
+    vertical-align: middle;
+}
+
+#personal-details {
+    float: left;
+    width: 30%;
+}
+
+#h1{
+    display: inline;
+    font-size: 20%;
+}
+
+#skills{
+    float: left;
+    width: 30%;
+    padding-top: 1%;
+}
+
+#edu{
+    float:left;
+    width: 30%;
+}
+
+#links{
+    float: right;
+    width: 70%;
+    padding-left: 0%;
+}
+
+#links ul {
+    padding: 0%;
+}
+
+#links li{
+    display: inline ;
+    text-align: left;
+    padding-right: 2px;
+}
+
+#exp-summary{
+    float: right;
+    width: 70%;
+    padding-bottom: 2em;
+}
+
+#experience{
+    float: right;
+    width: 70%;
+}
+
+
+ /*
+  *Citation-Took help from Anish Gondhi in aligning text besides image.
+  *Date- 14-10-2020.
+  */
+#personal-details h1{
+    float: right;
+    width: 61%;
+    text-align: center;
+    font-size: 56px;
+}
+
+/*
+ *Citation- Took help from Anish Gondhi to resize the icon of phone and email without changing the rest personal details.
+ *Date- 13-10-2020
+ */
+.icon{  
+    height: 20px;
+    width: 20px;
+}
+
+.text{
+    font-size: 15px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+
+
+
+    
+
+
